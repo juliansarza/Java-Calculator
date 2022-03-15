@@ -1,18 +1,21 @@
-## Getting Started
+## Submit: Java Calculator
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+calculator.java
+Create a Custom Class:
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Create a Java Calculator Class that does the following five commands:
+An add method that takes in two integer numbers and adds them together the call to that method would look like this: add(int num1, int num2)
+A subtraction method that takes in two integers and subtracts them from one another would look like this: subtract( int num1, int num2)
+A multiplication method that takes in two integer numbers and multiplies them together the call to that method would look like this: multiply(int num1, int num2)
+A division method that takes in two integer numbers and divides them the call to that method would look like this: divide(int num1, int num2)
+A square method that takes in one integer and squares it: square(int num1, int num2)
+BONUS
+Create a MagicCalculator that inherits its basic functionality from your calculator and does the following functions:
+Finds the square root of a number
+Finds the sin (trigonometry) of a number. [Note: Feel free to use the MATH class]
+Finds the cosine (trigonometry) of a number. [Note: Feel free to use the MATH class]
+Finds the tangent (trigonometry) of a number. [Note: Feel free to use the MATH class]
+Finds the factorial (!) of the number
+Submit a link to your GitHub repository 
